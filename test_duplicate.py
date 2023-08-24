@@ -19,5 +19,3 @@ def test_dupe():
     a = cursor.fetchall()
     b = len(a)
     check_that('b', b, equal_to(1))
-
-print('test')
